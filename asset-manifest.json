@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-site/static/css/main.acc300a3.css",
+    "main.js": "/web-site/static/js/main.99d9c23c.js",
+    "static/js/453.0ead716a.chunk.js": "/web-site/static/js/453.0ead716a.chunk.js",
+    "static/media/fields.png": "/web-site/static/media/fields.9bd2b6a4bfd17e2c2329.png",
+    "static/media/peopleWithSuits.png": "/web-site/static/media/peopleWithSuits.28d86724ae4cb04f2a30.png",
+    "static/media/bottles.png": "/web-site/static/media/bottles.33209f740ec06e3227fd.png",
+    "static/media/terraTeste.png": "/web-site/static/media/terraTeste.5afb456a007a4718ae83.png",
+    "static/media/mill.png": "/web-site/static/media/mill.af7b032c3d593129ec84.png",
+    "static/media/Silvia.png": "/web-site/static/media/Silvia.a902859185f0c5d94a5d.png",
+    "static/media/purpleLogo.png": "/web-site/static/media/purpleLogo.795d7af43446365ad5a4.png",
+    "index.html": "/web-site/index.html",
+    "main.acc300a3.css.map": "/web-site/static/css/main.acc300a3.css.map",
+    "main.99d9c23c.js.map": "/web-site/static/js/main.99d9c23c.js.map",
+    "453.0ead716a.chunk.js.map": "/web-site/static/js/453.0ead716a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc300a3.css",
+    "static/js/main.99d9c23c.js"
+  ]
+}
