@@ -1,9 +1,8 @@
 @import "../../styles/variables";
 
 .wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	border-bottom: 0.5px solid #B5B5B5;
 	padding: 30px 48px;
 	background: $white;
@@ -13,6 +12,7 @@
 	border: none;
 	background: none;
 	cursor: pointer;
+	justify-self: flex-start;
 
 	img {
 		width: 40px;
@@ -107,14 +107,15 @@
 
 .logo {
 	width: 139px;
+	justify-self: center;
 }
 
 .buttons {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-self: flex-end;
 
 	:nth-child(2) {
-		margin-left: 25px;
+		margin-left: 16px;
 	}
 }

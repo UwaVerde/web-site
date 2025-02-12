@@ -6,8 +6,24 @@
 	flex-direction: column;
 }
 
-.contentImage {
+.imageContainer {
+	width: 342px;
+	height: 384px;
+	overflow: hidden;
 	border-radius: 20px;
+	position: relative;
+}
+
+.zoomImage {
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease-in-out;
+
+	&:hover {
+		transform: scale(1.3);
+	}
 }
 
 .category,

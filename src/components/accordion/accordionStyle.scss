@@ -1,17 +1,17 @@
 @import "../../styles/variables";
 
-.accordion-header {}
-
 .accordion-button {
 	background-color: $almostWhite !important;
-	height: 134px;
+	height: 100%;
+	align-items: flex-start;
+	padding: 48px 20px !important;
 	transition: all .3s !important;
 
 	&:not(.collapsed) {
-		height: 0;
-		margin: 48px 0 24px;
+		padding: 48px 20px 24px !important;
 		transition: all .3s;
 		box-shadow: none !important;
+
 	}
 
 	&:focus {
@@ -25,12 +25,12 @@
 }
 
 .accordion-button:focus {
-	// box-shadow: 0 0 0 0.25rem hsla(241, 61%, 59%, .5) !important;
 	box-shadow: none;
 }
 
 .accordion-button::after {
 	background-image: url(../../assets/icons/addIcon.png) !important;
+	margin-right: 3%;
 }
 
 .accordion-button:not(.collapsed)::after {

@@ -13,6 +13,7 @@ import { Newsletter } from 'sections/Newsletter';
 import { Footer } from 'components/footer';
 import { OurProjects } from 'sections/OurProjects';
 import Silvia from "assets/images/Silvia.png"
+import { Teste } from 'sections/teste';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 			<HorizontalCards />
 			<Spacer height='168px' />
 			<OurValues />
+			<Teste />
 			<Spacer height='158px' />
 			<ImageSection />
 			<Spacer height='180px' />

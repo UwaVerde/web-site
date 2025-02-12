@@ -49,10 +49,10 @@
 	border: 1px solid $primary300Purple;
 	color: $white;
 	box-shadow: 3px 3px 15px 0px #5856D699;
-
+	transition: all .3s;
 
 	&:hover {
-		box-shadow: 0 0 35px 0px $primaryPurple;
+		background: radial-gradient(circle, rgba(83, 80, 233, 1) 0%, rgba(59, 56, 221, 1) 100%);
 	}
 }
 
